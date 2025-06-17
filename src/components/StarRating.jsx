@@ -44,7 +44,6 @@ function StarRating(props) {
           data-bs-parent="#accordionExample"
         >
           <div className="accordion-body">
-
             <div className="rating-holder">
               <section>
                 <h1>Product Star Rating</h1>
@@ -53,17 +52,6 @@ function StarRating(props) {
                   data-yotpo-instance-id={instanceid}
                   data-yotpo-product-id={productid}
                   data-yotpo-section-id="product"
-                  mode-preview={productid === "" ? "true" : ""}
-                ></div>
-              </section>
-
-              <section>
-                <h1>Collections Star Rating</h1>
-                <div
-                  className="yotpo-widget-instance"
-                  data-yotpo-instance-id={instanceid}
-                  data-yotpo-product-id={productid}
-                  data-yotpo-section-id="collection"
                   mode-preview={productid === "" ? "true" : ""}
                 ></div>
               </section>
